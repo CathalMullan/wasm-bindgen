@@ -30,6 +30,9 @@
 * Add bindings for `VisualViewport`.
   [#3931](https://github.com/rustwasm/wasm-bindgen/pull/3931)
 
+* Add WebIDL definitions relating to `Popover API`.
+  [#3977](https://github.com/rustwasm/wasm-bindgen/pull/3977)
+
 ### Changed
 
 * Stabilize Web Share API.
