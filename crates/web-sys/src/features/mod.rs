@@ -9483,6 +9483,20 @@ mod gen_TimeRanges;
 #[allow(unused_imports)]
 pub use gen_TimeRanges::*;
 
+#[cfg(feature = "ToggleEvent")]
+#[allow(non_snake_case)]
+mod gen_ToggleEvent;
+#[cfg(feature = "ToggleEvent")]
+#[allow(unused_imports)]
+pub use gen_ToggleEvent::*;
+
+#[cfg(feature = "ToggleEventInit")]
+#[allow(non_snake_case)]
+mod gen_ToggleEventInit;
+#[cfg(feature = "ToggleEventInit")]
+#[allow(unused_imports)]
+pub use gen_ToggleEventInit::*;
+
 #[cfg(feature = "Touch")]
 #[allow(non_snake_case)]
 mod gen_Touch;
